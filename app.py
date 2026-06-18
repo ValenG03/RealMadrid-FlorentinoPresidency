@@ -194,7 +194,7 @@ st.dataframe(df_players[["Jugador", "Goles", "Asistencias", "G+A", "Minutos", "T
 
 
 # Ruta absoluta al nuevo archivo AVIF en tu entorno
-ruta_bernabeu_avif = "/workspaces/RealMadrid-FlorentinoPresidency/bernabeu.avif"
+ruta_bernabeu_avif = "bernabeu.avif"
 
 try:
     with open(ruta_bernabeu_avif, "rb") as file:
