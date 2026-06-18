@@ -33,8 +33,8 @@ try:
     )
     
     # 2. Rutas de acceso absolutas
-    ruta_museo = "/workspaces/RealMadrid-FlorentinoPresidency/florentino-perez-museo-champions-league_117_1200x675.jpeg"
-    ruta_madrid = "/workspaces/RealMadrid-FlorentinoPresidency/Real-Madrid-1024x684.png"
+    ruta_museo = "florentino-perez-museo-champions-league_117_1200x675.jpeg"
+    ruta_madrid = "Real-Madrid-1024x684.png"
     
     # Cargar datos binarios
     img_museo_data = obtener_imagen_base64(ruta_museo)
